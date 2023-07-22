@@ -11,6 +11,8 @@
 		9FDDC06B2A6BF7AC005B68CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDDC06A2A6BF7AC005B68CD /* ContentView.swift */; };
 		9FDDC06D2A6BF7AC005B68CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FDDC06C2A6BF7AC005B68CD /* Assets.xcassets */; };
 		9FDDC0712A6BF7AC005B68CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FDDC0702A6BF7AC005B68CD /* Preview Assets.xcassets */; };
+		9FDDC0782A6BF7BF005B68CD /* CheckmarkCartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDDC0772A6BF7BF005B68CD /* CheckmarkCartView.swift */; };
+		9FDDC07C2A6C012F005B68CD /* README.MD in Resources */ = {isa = PBXBuildFile; fileRef = 9FDDC07B2A6C012F005B68CD /* README.MD */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		9FDDC06C2A6BF7AC005B68CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FDDC06E2A6BF7AC005B68CD /* CheckmarkCart.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CheckmarkCart.entitlements; sourceTree = "<group>"; };
 		9FDDC0702A6BF7AC005B68CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9FDDC0772A6BF7BF005B68CD /* CheckmarkCartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckmarkCartView.swift; sourceTree = "<group>"; };
+		9FDDC07B2A6C012F005B68CD /* README.MD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.MD; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +40,7 @@
 		9FDDC05C2A6BF7AB005B68CD = {
 			isa = PBXGroup;
 			children = (
+				9FDDC07B2A6C012F005B68CD /* README.MD */,
 				9FDDC0672A6BF7AC005B68CD /* CheckmarkCart */,
 				9FDDC0662A6BF7AC005B68CD /* Products */,
 			);
@@ -54,6 +59,7 @@
 			children = (
 				9FDDC0682A6BF7AC005B68CD /* CheckmarkCartApp.swift */,
 				9FDDC06A2A6BF7AC005B68CD /* ContentView.swift */,
+				9FDDC0772A6BF7BF005B68CD /* CheckmarkCartView.swift */,
 				9FDDC06C2A6BF7AC005B68CD /* Assets.xcassets */,
 				9FDDC06E2A6BF7AC005B68CD /* CheckmarkCart.entitlements */,
 				9FDDC06F2A6BF7AC005B68CD /* Preview Content */,
@@ -127,6 +133,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FDDC07C2A6C012F005B68CD /* README.MD in Resources */,
 				9FDDC0712A6BF7AC005B68CD /* Preview Assets.xcassets in Resources */,
 				9FDDC06D2A6BF7AC005B68CD /* Assets.xcassets in Resources */,
 			);
@@ -141,6 +148,7 @@
 			files = (
 				9FDDC06B2A6BF7AC005B68CD /* ContentView.swift in Sources */,
 				9FDDC0692A6BF7AC005B68CD /* CheckmarkCartApp.swift in Sources */,
+				9FDDC0782A6BF7BF005B68CD /* CheckmarkCartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
